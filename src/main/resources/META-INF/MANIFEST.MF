@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.adtec.didp.sm4tools.Main
+Class-Path: bcprov-jdk15on-1.69.jar
+
