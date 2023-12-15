@@ -40,9 +40,8 @@ public class SM4Cipher {
         }
     }
 
-    private static void processFile(PaddedBufferedBlockCipher cipher,
-                                    InputStream in,
-                                    OutputStream out) throws Exception {
+
+    private static void processFile(PaddedBufferedBlockCipher cipher, InputStream in, OutputStream out) throws Exception {
         byte[] inBuffer = new byte[cipher.getBlockSize()];
         byte[] outBuffer = new byte[cipher.getOutputSize(inBuffer.length)];
         int bytesRead;
